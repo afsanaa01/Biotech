@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biotech</title>
+    <link rel="stylesheet" href="/fonts/font.css?=1">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid container-unique">
+            <a class="navbar-brand" href="index.html">
+                <img src="/img/logo_itea_black.svg" class="logo-img" width="130px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <div onclick="myFunction(this)" class="nav-icon">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a class="nav-link" aria-current="page" href="index.html">
+                        <div class="line"></div>Ana səhifə
+                    </a>
+                    <a class="nav-link" href="#company">
+                        <div class="line"></div>Şirkət
+                    </a>
+                    <a class="nav-link" href="#products">
+                        <div class="line"></div>Məhsullar
+                    </a>
+                    <a class="nav-link" href="#referans">
+                        <div class="line"></div>Referanslar
+                    </a>
+                    <a class="nav-link" href="#contact">
+                        <div class="line"></div>Əlaqə
+                    </a>
+                    <p class="nav-link">|</p>
+                    <a class="nav-link" href="#">
+                        <div class="line"></div>AZ
+                    </a>
+                    <a class="nav-link" href="#">
+                        <div class="line"></div>EN
+                    </a>
+                    <a class="nav-link" href="#">
+                        <div class="line"></div>RU
+                    </a>
+                    <a class="nav-link" href="#">
+                        <div class="line"></div>TR
+                    </a>
+                </div>
+                <button type="button" class="btn btn-outline-light btn-new" style="margin-left: 20px;">Qiymət təklifi
+                    al</button>
+            </div>
+        </div>
+    </nav>
+    <section class="banner">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="btn-part col-lg-9 col-md-12 col-sm-12 col-12 justify-content-center banner-info">
+                            <h1 class="mt-3 describe">Yer Kürəmiz. <br> Gələcəyimiz. Məsuliyyətimiz.</h1>
+                            <p class="mt-4 centre centre1">“Biotech” şirkəti Azərbaycanda ekoloji təmiz və təhlükəsiz məhsullar erasına qədəm qoyur. Təklif etdiyimiz innovativ texnologiya plastikdən hazırlanmış məmulatları əvəz edərək və sıxışdıraraq,tədricən dünya bazarlarını əhatə etməkdədir.
+                            </p>
+                            <div class="row row1 pb-1">
+                                <div class="btn-part col-lg-4 col-md-6 col-12 col-sm-6">
+                                    <button type="button" class="btn btn-light btn-new-banner">MƏHSULLARA BAX</button>
+                                </div>
+                                <div class="text-center m-auto pre">
+                                    <a href="#" class="link">PDF kataloqu endir</a>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-2 col-sm-3 video" style="width: 14%; padding-left: calc(var(--bs-gutter-x) * .5)!important;">
+                                    <a class="link" href="/img/video.mp4" class="fancybox" data-fancybox="gallery1">
+                                        <div class="animation2"></div>
+                                    </a>
+                                    <a href="" class="link"><i class="bi bi-play-fill icon"></i></a>
+                                </div>
+                                <div class="ceo col-lg-2 col-md-3 col-5 col-sm-3">
+                                    <span style="font-size: 13px;">Plastik istifadə <br> etməzdən əvvəl <br> izləyin</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                    <a href="#" class="pdf link">PDF kataloqu endir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="btn-part col-lg-9 col-md-12 col-sm-12 col-12 justify-content-center banner-info">
+                            <h1 class="mt-3 describe">100% sukeçirməyən və <br> 100% bioloji parçalana bilən</h1>
+                            <p class="mt-4 centre2">Məhsulumuzun əsasını qarğıdalı, şəkər qamışı, bambuk, kartof, düyü və s. kimi bərpa olunan ehtiyatlardan əldə olunan təbii komponentlər təşkil edir. Məhz bu səbəbdən də, bizim qablarımız həm insan, həm də ətraf mühit üçün tam olaraq təhlükəsizdir ki, bu da çoxsaylı beynəlxalq sertifikatlar və laboratoriya sınaqları ilə təsdiqlənmişdir.
+                            </p>
+                            <div class="row row1 pb-1">
+                                <div class="btn-part col-lg-4 col-md-6 col-12 col-sm-6">
+                                    <button type="button" class="btn btn-light btn-new-banner">MƏHSULLARA BAX</button>
+                                </div>
+                                <div class="text-center m-auto pre">
+                                    <a href="#" class="link">PDF kataloqu endir</a>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-2 col-sm-3 video" style="width: 14%; padding-left: calc(var(--bs-gutter-x) * .5)!important;">
+                                    <a href="" class="link">
+                                        <div class="animation2"></div>
+                                    </a>
+                                    <a href="" class="link"><i class="bi bi-play-fill icon"></i></a>
+                                </div>
+                                <div class="ceo col-lg-2 col-md-3 col-5 col-sm-3">
+                                    <span style="font-size: 13px;">Plastik istifadə etməzdən <br> əvvəl izləyin</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                    <a href="#" class="pdf link">PDF kataloqu endir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="btn-part col-lg-9 col-md-12 col-sm-12 col-12 justify-content-center banner-info">
+                            <h1 class="mt-3 describe">Tərkibində toksin <br> və zərərli maddələr yoxdur</h1>
+                            <p class="mt-4 centre centre1">Məhsullarımızın neft məhsulları və toksin maddələr olmadığı üçün mikrodalğalı sobada istifadə üçün yararlıdır. -20°С-dən +150°С-dək temperatur rejimində istifadə etmək mümkündür. 
+                            </p>
+                            <div class="row row1 pb-1">
+                                <div class="btn-part col-lg-4 col-md-6 col-12 col-sm-6">
+                                    <button type="button" class="btn btn-light btn-new-banner">MƏHSULLARA BAX</button>
+                                </div>
+                                <div class="text-center m-auto pre">
+                                    <a href="#" class="link">PDF kataloqu endir</a>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-2 col-sm-3 video" style="width: 14%; padding-left: calc(var(--bs-gutter-x) * .5)!important;">
+                                    <a href="" class="link">
+                                        <div class="animation2"></div>
+                                    </a>
+                                    <a href="" class="link"><i class="bi bi-play-fill icon"></i></a>
+                                </div>
+                                <div class="ceo col-lg-2 col-md-3 col-5 col-sm-3">
+                                    <span style="font-size: 13px;">Plastik istifadə etməzdən <br> əvvəl izləyin</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                                    <a href="#" class="pdf link">PDF kataloqu endir</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+                <img src="/img/bioteck_pack_artwork.png" alt="" class="inner-image">
+        
+        <!-- <img src="https://static.tildacdn.com/tild3435-6431-4234-b630-393632633264/ITEA_FRANCHISE.svg" alt=""
+            class="animation"> -->
+    </section>
+   
+    <section class="numbers" id="company">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h1 class="mb-5">Niyə biotech?</h1>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-3 col-md-6 col-6 col-sm-6 mb-5">
+                    <div class="number-circle m-auto">
+                        <p>1</p>
+                    </div>
+                    <p class="text-center pt-5">100% bioloji parçalana bilən</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 col-sm-6 mb-5">
+                    <div class="number-circle m-auto">
+                        <p>2</p>
+                    </div>
+                    <p class="text-center pt-5">100% sukeçirməyən</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 col-sm-6 mb-5">
+                    <div class="number-circle m-auto">
+                        <p>3</p>
+                    </div>
+                    <p class="text-center pt-5">Möhkəm quruluş</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 col-sm-6 mb-5">
+                    <div class="number-circle m-auto">
+                        <p>4</p>
+                    </div>
+                    <p class="text-center pt-5">Mikrodalğalı sobada istifadə üçün yararlı</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 col-sm-6 mb-5">
+                    <div class="number-circle m-auto">
+                        <p>5</p>
+                    </div>
+                    <p class="text-center pt-5">Aşqar və turşuların təsirinə davamlı</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 col-sm-6 mb-5">
+                    <div class="number-circle m-auto">
+                        <p>6</p>
+                    </div>
+                    <p class="text-center pt-5">-20°С-dən +150°С-dək temperatur rejimində istifadə</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 col-sm-6 mb-5">
+                    <div class="number-circle m-auto">
+                        <p>7</p>
+                    </div>
+                    <p class="text-center pt-5">Tərkibində toksin və zərərli maddələr yoxdur</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-6 col-sm-6 mb-5">
+                    <div class="number-circle m-auto">
+                        <p>8</p>
+                    </div>
+                    <p class="text-center pt-5">Tərkibində neft məhsulları yoxdur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="carousel-part">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-9 col-9 col-sm-9 text-center m-auto">
+                <h1 class="mb-2">Niyə plastikə yox deməliyik?</h1>
+                <p class="mb-5">Plastik istifadəsinin nəticələrinə bir də belə baxın</p>
+            </div>
+        </div>
+    </div>
+    <div class="owl-carousel loop owl-theme">
+        <div class="item">
+            <div class="card">
+                <img src="/img/bio1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-title">#PlastikəYox</p>
+                  <h6 class="card-text">#DahaYaxşıDünyaÜçün</h6>
+                </div>
+              </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <img src="/img/bio2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">#PlastikəYox</p>
+                  <h6 class="card-text">#DahaYaxşıDünyaÜçün</h6>
+                  </div>
+              </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <img src="/img/bio3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">#PlastikəYox</p>
+                  <h6 class="card-text">#DahaYaxşıDünyaÜçün</h6>
+                  </div>
+              </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <img src="/img/bio4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">#PlastikəYox</p>
+                  <h6 class="card-text">#DahaYaxşıDünyaÜçün</h6>
+                  </div>
+              </div>
+        </div>
+        <div class="item">
+            <div class="card">
+                <img src="/img/bio1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">#PlastikəYox</p>
+                  <h6 class="card-text">#DahaYaxşıDünyaÜçün</h6>
+                  </div>
+              </div>
+        </div> 
+        <div class="item">
+            <div class="card">
+                <img src="/img/bio2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-title">#PlastikəYox</p>
+                  <h6 class="card-text">#DahaYaxşıDünyaÜçün</h6>
+                  </div>
+              </div>
+        </div>
+    </div>
+</section>
+    
+    <section class="products pb-5" id="products">
+        <div class="container">
+            <div class="row">
+                <div class="text-center mb-5">
+                    <h1>Məhsullar</h1>
+                    <p class="mt-4 pro-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, tenetur aliquid!
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 col-sm-12 mb-2">
+                    <div class="product">
+                        <div class="info1">
+                            <div class="row1 row">
+                                <div class="col-lg-8 col-md-7 col-6 col-sm-6">
+                                    <a href="#" class="button1">INFORMATIONS</a>
+                                </div>
+                                <div class="col-lg-2 col-md-2 col-3 col-sm-4">
+
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-3 col-sm-2 gray1">
+                                    47
+                                    <p class="little">Molestiae, ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="/img/754.png" alt="" class="image-part">
+                            <h6 class="fw-bold pro-name">NEW PRODUCTS</h6>
+                            <p class="mb-4 mt-3 gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                molestiae consequuntur ducimus officiis.</p>
+                            <button type="button" class="button btn btn-success">MƏHSULA BAX</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 col-sm-12 mb-2">
+                    <div class="product">
+                        <div class="info1">
+                            <div class="row1 row">
+                                <div class="col-lg-8 col-md-6 col-6 col-sm-6">
+                                    <a href="#" class="button1">INFORMATIONS</a>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-3 col-sm-3">
+
+                                </div>
+                                <div class="col-lg-2  col-md-3 col-3 col-sm-2 gray1">
+                                    47
+                                    <p class="little">Molestiae, ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="/img/3p.webp" alt="" class="image-part">
+                            <h6 class="fw-bold pro-name">NEW PRODUCTS</h6>
+                            <p class="mb-4 mt-3 gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                molestiae consequuntur ducimus officiis.</p>
+                            <button type="button" class="button btn btn-success">MƏHSULA BAX</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 col-sm-12 mb-2">
+                    <div class="product">
+                        <div class="info1">
+                            <div class="row1 row">
+                                <div class="col-lg-8 col-md-6 col-6 col-sm-6">
+                                    <a href="#" class="button1">INFORMATIONS</a>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-3 col-sm-3">
+
+                                </div>
+                                <div class="col-lg-2  col-md-3 col-3 col-sm-2 gray1">
+                                    47
+                                    <p class="little">Molestiae, ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="/img/3p.webp" alt="" class="image-part">
+                            <h6 class="fw-bold pro-name">NEW PRODUCTS</h6>
+                            <p class="mb-4 mt-3 gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                molestiae consequuntur ducimus officiis.</p>
+                            <button type="button" class="button btn btn-success">MƏHSULA BAX</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 col-sm-12 mb-2">
+                    <div class="product">
+                        <div class="info1">
+                            <div class="row1 row">
+                                <div class="col-lg-8 col-md-6 col-6 col-sm-6">
+                                    <a href="#" class="button1">INFORMATIONS</a>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-3 col-sm-3">
+                                </div>
+                                <div class="col-lg-2  col-md-3 col-3 col-sm-2 gray1">
+                                    47
+                                    <p class="little">Molestiae, ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="/img/3p.webp" alt="" class="image-part">
+                            <h6 class="fw-bold pro-name">NEW PRODUCTS</h6>
+                            <p class="mb-4 mt-3 gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                molestiae consequuntur ducimus officiis.</p>
+                            <button type="button" class="button btn btn-success">MƏHSULA BAX</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 col-sm-12 mb-2">
+                    <div class="product">
+                        <div class="info1">
+                            <div class="row1 row">
+                                <div class="col-lg-8 col-md-6 col-6 col-sm-6">
+                                    <a href="#" class="button1">INFORMATIONS</a>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-3 col-sm-3">
+
+                                </div>
+                                <div class="col-lg-2  col-md-3 col-3 col-sm-2 gray1">
+                                    47
+                                    <p class="little">Molestiae, ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="/img/3p.webp" alt="" class="image-part">
+                            <h6 class="fw-bold pro-name">NEW PRODUCTS</h6>
+                            <p class="mb-4 mt-3 gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                molestiae consequuntur ducimus officiis.</p>
+                            <button type="button" class="button btn btn-success">MƏHSULA BAX</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 col-sm-12 mb-2">
+                    <div class="product">
+                        <div class="info1">
+                            <div class="row1 row">
+                                <div class="col-lg-8 col-md-6 col-6 col-sm-6">
+                                    <a href="#" class="button1">INFORMATIONS</a>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-3 col-sm-3">
+
+                                </div>
+                                <div class="col-lg-2  col-md-3 col-3 col-sm-2 gray1">
+                                    47
+                                    <p class="little">Molestiae, ipsum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <img src="/img/3p.webp" alt="" class="image-part">
+                            <h6 class="fw-bold pro-name">NEW PRODUCTS</h6>
+                            <p class="mb-4 mt-3 gray">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+                                molestiae consequuntur ducimus officiis.</p>
+                            <button type="button" class="button btn btn-success">MƏHSULA BAX</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="digital pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 col-sm-12 pb-4 text-center ">
+                    <img src="/img/cup-removebg-preview.png" alt="" class="cup" width="73%">
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 col-sm-12">
+                    <span>Xidmətlərimiz</span>
+                    <h2 class="fw-bold pt-2 pb-3">Markanızın nə qədər təbiət dostu olduğunu hər kəs görsün!</h2>
+                    <h2 class="fw-bold pt-2 pb-3">Müəssisənizə özəl loqolu məhsullar Biotech-də!</h2>
+                    <p class="pb-4">
+                        Bu kiçik, ancaq təsiredici marketinq addımı brendinizin bazarda mövqeyini gücləndirəcək və müştəri sədaqətini ciddi ölçüdə artıracaq. Fürsəti qaçırmadan bir kliklə qiymət təklifi alın.</p>
+                    <button type="button" class="button btn btn-success">Qiymət təklifi al</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trust" id="referans">
+        <div class="container">
+            <div class="row">
+                <div class="m-auto text-center">
+                    <h1 class="pb-5 fw-bold">Bizə etibar edirlər</h1>
+                </div>
+                <div class="owl-carousel owl-two owl-theme">
+                    <div class="item">
+                        <img src="/img/brovo.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/bazarstore.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/anc_group_230320.jpeg" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/grandmart@2x.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/logo-green.svg" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/bolmart.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/bizim.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/saffron.jpeg" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/beatgrouplogowhite.svg" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/azeservice.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/sheraton.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/pmd.png" alt="" class="partners">
+                    </div>
+                </div>
+                <div class="owl-carousel owl-two owl-theme mt-3">
+                    <div class="item">
+                        <img src="/img/pashalife.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/Pasha Sigorta Logo long aze eng 2_20220315171728.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/kapital.svg" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/absheron-1.svg" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/png-transparent-hard-rock-cafe-hotel-hard-rock-logo-seminole-hard-rock-hotel-casino-hollywood-fl-hard-rock-text-cafe-logo.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/scalini.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/paul.webp" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/hyatt.webp" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/bilgah.svg" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/JWM_Logo_Vertical_wRMark_4C.png" alt="" class="partners">
+                    </div>
+                    <div class="item">
+                        <img src="/img/prive.png" alt="" class="partners">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-10 col-12 col-sm-12 m-auto text-center">
+                    <h1 class="pb-3 fw-bold">SİZƏ ÖZƏL QİYMƏT TƏKLİFİ?</h1>
+                    <p class="pb-5">Bir toxunuşla qiymət sorğusu göndərin, ən qısa zamanda sizə özəl qiymət təklifini əldə edin</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-10 col-12 col-sm-12 m-auto text-center">
+                    <button type="button" class="btn btn-light btn-new-banner">QİYMƏT TƏKLİFİ AL</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 col-sm-12">
+                    <h2 class="fw-bold footer-title">100% bioloji parçalana bilən təbiət dostu qablaşdırma məhsulları</h2>
+                </div>
+                <div class="col-lg-2 col-md-2 col-12 col-sm-12">
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                    <a href="" class="green-link link footer-title">(+994 50) 280 24 86</a> <br>
+                    <a href="" class="green-link link">(+994 12) 408 90 98</a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 col-sm-12">
+                    <p class="little pb-1">Biotech MMC:
+                    </p>
+                    <p class="little footer-end">Bakı şəhəri, Yasamal r-nu, A.Bakıxanov küç., 12A</p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-12 col-sm-12">
+
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                    <div class="icons">
+                        <a href="" class="link me-2 mb-2"><i class="fa-brands fa-facebook-f footer-icon"></i></a>
+                        <a href="" class="link me-2 mb-2"><i class="fa-brands fa-instagram footer-icon"></i></a>
+                        <a href="" class="link me-2 mb-2"><i class="fa-brands fa-linkedin-in footer-icon"></i></a>
+                        <a href="" class="link me-2 mb-2"><i class="fa-brands fa-whatsapp footer-icon"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12 col-sm-12">
+                    <p class="little">© 2022 "Biotech" Məhdud Məsuliyyətli Cəmiyyəti. Bütün hüquqları qorunur. </p>
+                </div>
+                <div class="col-lg-2 col-md-2 col-12 col-sm-12">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 col-sm-12">
+                    <p class="little">Saytın hazırlanması: <a href=""><img src="/img/okmedia-logo.png" alt=""></a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="" class="whatsapp link fixed-bottom">
+        <p class="whatsapp-text text-center"><i class="bi bi-whatsapp"></i> Bir kliklə Whatsapp-a yazın</p>
+    </a>
+
+    <script src="js/lightgallery.min.js"></script>
+    
+    <!-- Include lg-video -->
+    <script src="js/lg-video.min.js"></script>
+    
+    <!-- Include other lightgallery plugins (Optional) -->
+    <script src="js/lg-thumbnail.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+      ></script>
+    <script src="/js/owl.carousel.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/caf47bb324.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
